@@ -1,0 +1,17 @@
+{
+  "name": "patomarques",
+  "authors": [
+    "Pato Marques <patoxmarques@gmail.com>"
+  ],
+  "description": "my profissional website",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

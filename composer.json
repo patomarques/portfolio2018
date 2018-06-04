@@ -1,0 +1,11 @@
+{
+    "name": "pato/patomarques",
+    "description": "portfolio website",
+    "authors": [
+        {
+            "name": "Pato Marques",
+            "email": "patoxmarques@gmail.com"
+        }
+    ],
+    "require": {}
+}

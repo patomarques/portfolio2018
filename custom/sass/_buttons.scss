@@ -1,0 +1,12 @@
+.button_menu_gray{
+  span{
+    background: $cinza !important;
+  }
+  
+  &.active{
+    span{
+      background: $preto !important;
+      height: 3px;
+    }
+  }
+}
