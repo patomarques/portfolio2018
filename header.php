@@ -17,11 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Halant:300,400" rel="stylesheet" type="text/css">
-
-    <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -33,6 +29,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/custom/css/bundle.css">
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/custom/sass/patomarques.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
 

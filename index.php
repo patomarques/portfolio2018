@@ -24,26 +24,26 @@ get_header();
                     <div id="text-rotator" class="flexslider mt-15 mb-15">
                         <ul class="slides">
                             <li>
-                                <h1 class="upper fw-400">Desenvolvedor Front-End<span class="red-dot dot-gray"></span></h1>
+                                <h2 class="text-work upper fw-400">Desenvolvedor Front-End<span class="red-dot dot-gray"></span></h2>
                             </li>
                             <li>
-                                <h1 class="upper fw-400">Desenvolvedor Back-end<span class="red-dot dot-gray"></span></h1>
+                                <h2 class="text-work upper fw-400">Desenvolvedor Back-end<span class="red-dot dot-gray"></span></h2>
                             </li>
                             <li>
-                                <h1 class="upper fw-400">Desenvolvedor Wordpress<span class="red-dot dot-gray"></span></h1>
+                                <h2 class="text-work upper fw-400">Desenvolvedor Wordpress<span class="red-dot dot-gray"></span></h2>
                             </li>
                         </ul>
                     </div>
                     <ul class="social-list">
                         <li>
-                            <a target="_blank" href="#" class="mdi mdi-github-circle" title="I'm title"></a>
+                            <a target="_blank" href="#" class="mdi mdi-github-circle btn-tippy" title="https://github.com/patomarques"></a>
                         </li>
                         <li>
-                            <a target="_blank" href="#" class="mdi mdi-twitter"></a>
+                            <a target="_blank" href="#" class="mdi mdi-twitter btn-tippy" title="@patomarqs"></a>
                         </li>
-                        <li>
-                            <a target="_blank" href="#" class="mdi mdi-wordpress"></a>
-                        </li>
+<!--                        <li>-->
+<!--                            <a target="_blank" href="#" class="mdi mdi-wordpress btn-tippy" title="Blog WP"></a>-->
+<!--                        </li>-->
                     </ul>
                 </div>
             </div>
@@ -52,13 +52,18 @@ get_header();
 
     <section id="sobre-mim">
         <div class="container">
-            <div class="title center"><i class="icon-profile-male"></i>
+            <div class="title center"><img src="<?php echo get_template_directory_uri(); ?>/custom/img/origami.svg" class="icon-origami"/>
                 <h3>Sobre Mim<span class="red-dot"></span></h3>
                 <hr>
             </div>
             <div class="section-content text-center">
                 <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                        <div class="photo-me">
+                            <img src="<?php echo get_template_directory_uri(); ?>/custom/img/yo.jpg" alt="Pato Marques">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
                         <p class="text-base">Tenho conhecimentos no desenvolvimento de sites e aplicações web que vão desde o planejamento até a implementação, com experiência tanto na parte do back-end quanto front-end;</p>
                         <p class="text-base">Escrever mais coisas a meu respeito profissional, talvez socialmente; Tenho preferencia e interesse em participar e desenvolver projetos firmezas.</p>
                     </div>

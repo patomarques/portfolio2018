@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*@import '../../bower_components/mdi/scss/materialdesignicons.scss';*/
-@import url("https://fonts.googleapis.com/css?family=Karma|Yeon+Sung");
 .dot-gray:before {
   color: #F5F5F5 !important; }
 
@@ -12,6 +11,13 @@
 
 .button_menu_gray.active span {
   background: #000000 !important;
+  height: 3px; }
+
+.button_menu_red span {
+  background: #a40000 !important; }
+
+.button_menu_red.active span {
+  background: #a40000 !important;
   height: 3px; }
 
 /*
@@ -4723,7 +4729,7 @@ footer.dark p {
 
 .text-base {
   font-size: 32px;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Arial"; }
 
 .video-home-fullscreen {
   height: 100% !important;
@@ -4746,14 +4752,23 @@ body::-webkit-scrollbar-thumb {
 #sobre-mim {
   background-color: #000000; }
 
-.social-list > li > a {
+.social-list li:nth-child(1) a {
+  padding: 6px 13px 6px 15px !important; }
+
+.social-list li a {
   font-size: 26px;
   width: auto;
   height: auto;
   padding: 6px 13px; }
-  .social-list > li > a:hover {
+  .social-list li a:hover {
     background-color: #F5F5F5;
     color: #000000; }
+
+.text-rotator .text-work {
+  font-family: "Share Tech Mono", "monospace" !important; }
+
+.icon-origami {
+  width: 60px; }
 
 .logo {
   padding: 8px 0 0 0 !important;
@@ -4761,7 +4776,7 @@ body::-webkit-scrollbar-thumb {
   float: none !important;
   color: #a40000;
   font-weight: 400;
-  font-family: "Karma", serif; }
+  font-family: "Comic Sans"; }
   .logo:hover {
     opacity: 0.8; }
 
@@ -4781,16 +4796,17 @@ body::-webkit-scrollbar-thumb {
   .button_container:hover {
     opacity: .7; }
   .button_container.active .top {
-    transform: translateY(11px) translateX(0) rotate(45deg);
-    background: #000000; }
+    transform: translateY(11px) translateX(0) rotate(45deg); }
   .button_container.active .middle {
-    opacity: 0;
-    background: #000000; }
+    opacity: 0; }
   .button_container.active .bottom {
-    transform: translateY(-11px) translateX(0) rotate(-45deg);
-    background: #000000; }
+    transform: translateY(-11px) translateX(0) rotate(-45deg); }
+  .button_container.active .top,
+  .button_container.active .middle,
+  .button_container.active .bottom {
+    background-color: #F5F5F5 !important; }
   .button_container span {
-    background: #a40000;
+    background: #F5F5F5;
     border: none;
     height: 2px;
     width: 100%;
@@ -4806,7 +4822,7 @@ body::-webkit-scrollbar-thumb {
 
 .overlay {
   position: fixed;
-  background: #a40000;
+  background: #000000;
   top: 0;
   left: 0;
   width: 100%;
@@ -4853,22 +4869,26 @@ body::-webkit-scrollbar-thumb {
       .overlay ul li a {
         display: block;
         position: relative;
-        color: #000000;
+        color: #F5F5F5;
         text-decoration: none;
         overflow: hidden;
-        font-family: "Yeon Sung", cursive; }
+        font-family: "Share Tech Mono", "monospace";
+        text-transform: uppercase; }
+        .overlay ul li a:hover {
+          color: #a40000; }
         .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
           width: 100%; }
         .overlay ul li a:after {
           content: '';
           position: absolute;
-          bottom: 43%;
+          bottom: 50%;
           left: 50%;
           width: 0%;
           transform: translateX(-50%);
-          height: 2px;
-          background: #000000;
-          transition: .35s; }
+          height: 1px;
+          background: #a40000;
+          transition: .35s;
+          opacity: 0.7; }
 
 @keyframes fadeInRight {
   0% {
@@ -4879,6 +4899,6 @@ body::-webkit-scrollbar-thumb {
     left: 0; } }
 
 .footer {
-  font-family: "Yeon Sung", cursive; }
+  font-family: "Arial"; }
 
 /*# sourceMappingURL=patomarques.css.map */

@@ -3,6 +3,8 @@ $(document).ready(function(){
         $(this).toggleClass('active');
         $('#overlay').toggleClass('open');
     });
+
+    tippy('.btn-tippy');
 });
 
 

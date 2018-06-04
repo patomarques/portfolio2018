@@ -10,3 +10,16 @@
     }
   }
 }
+
+.button_menu_red{
+  span{
+    background: $vermelho !important;
+  }
+
+  &.active{
+    span{
+      background: $vermelho !important;
+      height: 3px;
+    }
+  }
+}

@@ -4,7 +4,7 @@
 
 .text-base{
   font-size: 32px;
-  font-family: $ff-raleway;
+  font-family: $ff-text-base;
 }
 
 .video-home-fullscreen{
@@ -33,14 +33,34 @@ body::-webkit-scrollbar-thumb {
   background-color: $preto;
 }
 
-.social-list > li > a{
-  font-size: 26px;
-  width: auto;
-  height: auto;
-  padding: 6px 13px;
+.social-list{
+  li{
 
-  &:hover{
-    background-color: $cinza;
-    color: $preto;
+    &:nth-child(1){
+      a{
+        padding: 6px 13px 6px 15px !important;
+      }
+    }
+    a{
+      font-size: 26px;
+      width: auto;
+      height: auto;
+      padding: 6px 13px;
+
+      &:hover{
+        background-color: $cinza;
+        color: $preto;
+      }
+    }
   }
+}
+
+.text-rotator{
+  .text-work{
+    font-family: $ff-default !important;
+  }
+}
+
+.icon-origami{
+  width: 60px;
 }
