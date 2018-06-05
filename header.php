@@ -17,7 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>

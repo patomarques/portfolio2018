@@ -1,0 +1,21 @@
+.input-text{
+  width: 100% !important;
+  height: auto !important;
+  padding: 15px 20px !important;
+  font-size: 16px !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  border: 2px solid $cinza !important;
+  margin-bottom: 10px;
+  @extend .trans;
+
+  &:focus{
+    border: 2px solid $preto !important;
+  }
+}
+
+.input-textarea{
+  @extend .input-text;
+  resize: both;
+  height: 150px !important;
+}

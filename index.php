@@ -121,6 +121,14 @@ get_header();
     <section id="experience">
         <div class="container">
             <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                    <div class="title center"><i class="icon-briefcase"></i>
+                        <h3>Trabalhos<span class="red-dot"></span><span class="red-dot"></span><span class="red-dot"></span></h3>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <ul class="timeline">
                         <li>
@@ -164,46 +172,66 @@ get_header();
             <div class="section-content">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="skill"><span class="skill-name">< html5 /></span><span class="skill-perc">90%</span>
+                        <div class="skill"><span class="skill-name">< html5 /></span><span class="skill-perc">75%</span>
                             <div class="progress">
-                                <div role="progressbar" data-progress="90" class="progress-bar"></div>
+                                <div role="progressbar" data-progress="75" class="progress-bar"></div>
                             </div>
                         </div>
-                        <div class="skill"><span class="skill-name">.css3{ }</span><span class="skill-perc">80%</span>
+                        <div class="skill"><span class="skill-name">.css3{ }</span><span class="skill-perc">55%</span>
+                            <div class="progress">
+                                <div role="progressbar" data-progress="55" class="progress-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill"><span class="skill-name">js;</span><span class="skill-perc">60%</span>
+                            <div class="progress">
+                                <div role="progressbar" data-progress="60" class="progress-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill"><span class="skill-name">php 7+</span><span class="skill-perc">80%</span>
                             <div class="progress">
                                 <div role="progressbar" data-progress="80" class="progress-bar"></div>
                             </div>
                         </div>
-                        <div class="skill"><span class="skill-name">js;</span><span class="skill-perc">85%</span>
+                        <div class="skill"><span class="skill-name">SQL / DBA</span><span class="skill-perc">70%</span>
                             <div class="progress">
-                                <div role="progressbar" data-progress="85" class="progress-bar"></div>
+                                <div role="progressbar" data-progress="70" class="progress-bar"></div>
                             </div>
                         </div>
-                        <div class="skill"><span class="skill-name">php 7+</span><span class="skill-perc">95%</span>
+                        <div class="skill"><span class="skill-name">Gateway's de pagamentos (Api / Rest)</span><span class="skill-perc">75%</span>
                             <div class="progress">
-                                <div role="progressbar" data-progress="95" class="progress-bar"></div>
+                                <div role="progressbar" data-progress="75" class="progress-bar"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="skill"><span class="skill-name">Wordpress</span><span class="skill-perc">90%</span>
+                        <div class="skill"><span class="skill-name">Wordpress</span><span class="skill-perc">85%</span>
                             <div class="progress">
-                                <div role="progressbar" data-progress="90" class="progress-bar"></div>
+                                <div role="progressbar" data-progress="85" class="progress-bar"></div>
                             </div>
                         </div>
-                        <div class="skill"><span class="skill-name">Laravel 5+</span><span class="skill-perc">35%</span>
+                        <div class="skill"><span class="skill-name">Laravel 5+</span><span class="skill-perc">65%</span>
                             <div class="progress">
-                                <div role="progressbar" data-progress="35" class="progress-bar"></div>
+                                <div role="progressbar" data-progress="65" class="progress-bar"></div>
                             </div>
                         </div>
-                        <div class="skill"><span class="skill-name">fumá Maconha todo dia</span><span class="skill-perc">420%</span>
+                        <div class="skill"><span class="skill-name">Bootstrap</span><span class="skill-perc">80%</span>
                             <div class="progress">
-                                <div role="progressbar" data-progress="420" class="progress-bar"></div>
+                                <div role="progressbar" data-progress="80" class="progress-bar"></div>
                             </div>
                         </div>
-                        <div class="skill"><span class="skill-name">Andar de bike</span><span class="skill-perc">95%</span>
+                        <div class="skill"><span class="skill-name">Vue.js</span><span class="skill-perc">55%</span>
                             <div class="progress">
-                                <div role="progressbar" data-progress="95" class="progress-bar"></div>
+                                <div role="progressbar" data-progress="55" class="progress-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill"><span class="skill-name">Design Responsivo</span><span class="skill-perc">80%</span>
+                            <div class="progress">
+                                <div role="progressbar" data-progress="80" class="progress-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill"><span class="skill-name">E-commerce</span><span class="skill-perc">75%</span>
+                            <div class="progress">
+                                <div role="progressbar" data-progress="75" class="progress-bar"></div>
                             </div>
                         </div>
                     </div>
@@ -219,26 +247,27 @@ get_header();
             </div>
             <div class="section-content">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="contact-form">
-                            <form id="contact-form" method="POST" action="mail.php">
-                                <div class="form-group">
-                                    <input name="fullname" type="text" placeholder="Your Name" data-required="true" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <input name="email" type="email" placeholder="Your Email" data-required="true" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <input name="phone" type="text" placeholder="Phone Number" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" placeholder="Message" data-required="true" class="form-control"></textarea>
-                                </div>
-                                <div class="form-group text-center">
-                                    <button type="submit" class="btn btn-color">Enviar Mensagem</button>
-                                </div>
-                            </form>
-                        </div>
+                    <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                        <?php echo do_shortcode("[contact-form-7 id=\"29\" title=\"Formulário de contato 1\"]"); ?>
+<!--                        <div class="contact-form">-->
+<!--                            <form id="contact-form" method="POST" action="mail.php">-->
+<!--                                <div class="form-group">-->
+<!--                                    <input name="fullname" type="text" placeholder="Your Name" data-required="true" class="form-control">-->
+<!--                                </div>-->
+<!--                                <div class="form-group">-->
+<!--                                    <input name="email" type="email" placeholder="Your Email" data-required="true" class="form-control">-->
+<!--                                </div>-->
+<!--                                <div class="form-group">-->
+<!--                                    <input name="phone" type="text" placeholder="Phone Number" class="form-control">-->
+<!--                                </div>-->
+<!--                                <div class="form-group">-->
+<!--                                    <textarea name="message" placeholder="Message" data-required="true" class="form-control"></textarea>-->
+<!--                                </div>-->
+<!--                                <div class="form-group text-center">-->
+<!--                                    <button type="submit" class="btn btn-color">Enviar Mensagem</button>-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
