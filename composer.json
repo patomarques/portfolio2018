@@ -7,5 +7,7 @@
             "email": "patoxmarques@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "alterfw/wordpress-for-developers": "v0.1.4"
+    }
 }
