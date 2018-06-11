@@ -164,3 +164,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 /* Disable WordPress Admin Bar for all users but admins. */
 show_admin_bar(false);
+
+function calculateAte($bithdayDate = '1989-08-17'){
+    $date = new DateTime($bithdayDate);
+    $now = new DateTime();
+    $interval = $now->diff($date);
+    return $interval->y;
+}

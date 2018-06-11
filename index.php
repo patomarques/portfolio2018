@@ -14,23 +14,22 @@
 
 get_header();
 ?>
-    <!-- Home Section-->
     <section id="home" class="dark particles-bg">
         <div class="slide-wrap">
             <div class="slide-content"><i class="fa fa-lg fa-facebook"></i></h6>
                 <div class="container">
-                    <h3 class="mb-0">Olá, me chamo Pato Marques e trampo como... </h3>
+                    <h2 class="logo-home">Pato Marques</h2>
 
                     <div id="text-rotator" class="flexslider mt-15 mb-15">
                         <ul class="slides">
                             <li>
-                                <h2 class="text-work upper fw-400">Desenvolvedor Front-End<span class="red-dot dot-gray"></span></h2>
+                                <h2 class="text-work upper fw-400">< Desenvolvedor Front-End /></h2>
                             </li>
                             <li>
-                                <h2 class="text-work upper fw-400">Desenvolvedor Back-end<span class="red-dot dot-gray"></span></h2>
+                                <h2 class="text-work upper fw-400">{ Desenvolvedor Back-end; }</h2>
                             </li>
                             <li>
-                                <h2 class="text-work upper fw-400">Desenvolvedor Wordpress<span class="red-dot dot-gray"></span></h2>
+                                <h2 class="text-work upper fw-400">[Desenvolvedor Wordpress]</h2>
                             </li>
                         </ul>
                     </div>
@@ -53,19 +52,20 @@ get_header();
     <section id="sobre-mim">
         <div class="container">
             <div class="title center"><img src="<?php echo get_template_directory_uri(); ?>/custom/img/origami.svg" class="icon-origami"/>
-                <h3>Sobre Mim<span class="red-dot"></span></h3>
+                <h3 class="title-section">Sobre Mim</h3>
                 <hr>
             </div>
             <div class="section-content text-center">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                         <div class="photo-me">
                             <img src="<?php echo get_template_directory_uri(); ?>/custom/img/yo.jpg" alt="Pato Marques">
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
-                        <p class="text-base">Tenho conhecimentos no desenvolvimento de sites e aplicações web que vão desde o planejamento até a implementação, com experiência tanto na parte do back-end quanto front-end;</p>
-                        <p class="text-base">Escrever mais coisas a meu respeito profissional, talvez socialmente; Tenho preferencia e interesse em participar e desenvolver projetos firmezas.</p>
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-7 col-lg-offset-2">
+                        <p class="text-base">Olá, me chamo Pato Marques, tenho <?= calculateAte() ?> anos. Sou vegan, ando de bike, desenvolvo pra web e moro em Recife-PE. </p>
+                        <p class="text-base">Estudei Sistemas de informação, na Universidade Joaquim Nabuco. Trabalhei em algumas fábricas de software, agências de publicidade & como webdev freelancer.</p>
+                        <p class="text-base">Tenho conhecimentos no desenvolvimento de sites e aplicações web, com experiência como back-end & front-end;</p>
                     </div>
                 </div>
             </div>
@@ -249,30 +249,11 @@ get_header();
                 <div class="row">
                     <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
                         <?php echo do_shortcode("[contact-form-7 id=\"29\" title=\"Formulário de contato 1\"]"); ?>
-<!--                        <div class="contact-form">-->
-<!--                            <form id="contact-form" method="POST" action="mail.php">-->
-<!--                                <div class="form-group">-->
-<!--                                    <input name="fullname" type="text" placeholder="Your Name" data-required="true" class="form-control">-->
-<!--                                </div>-->
-<!--                                <div class="form-group">-->
-<!--                                    <input name="email" type="email" placeholder="Your Email" data-required="true" class="form-control">-->
-<!--                                </div>-->
-<!--                                <div class="form-group">-->
-<!--                                    <input name="phone" type="text" placeholder="Phone Number" class="form-control">-->
-<!--                                </div>-->
-<!--                                <div class="form-group">-->
-<!--                                    <textarea name="message" placeholder="Message" data-required="true" class="form-control"></textarea>-->
-<!--                                </div>-->
-<!--                                <div class="form-group text-center">-->
-<!--                                    <button type="submit" class="btn btn-color">Enviar Mensagem</button>-->
-<!--                                </div>-->
-<!--                            </form>-->
-<!--                        </div>-->
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 <?php
-//get_sidebar();
 get_footer();

@@ -5,6 +5,7 @@
 .text-base{
   font-size: 32px;
   font-family: $ff-text-base;
+  color: $cinza;
 }
 
 .video-home-fullscreen{
@@ -46,6 +47,7 @@ body::-webkit-scrollbar-thumb {
       width: auto;
       height: auto;
       padding: 6px 13px;
+      border: 1px solid $cinza;
 
       &:hover{
         background-color: $cinza;
@@ -55,12 +57,27 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.text-rotator{
-  .text-work{
-    font-family: $ff-default !important;
-  }
+
+.text-work{
+  font-family: $ff-default !important;
+  font-size: 4em !important;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  text-transform: lowercase;
 }
+
 
 .icon-origami{
   width: 60px;
+}
+
+.photo-me{
+  margin-top: 80px;
+  border-radius: 10px;
+  filter: blur(5px) grayscale(80%);
+  @extend .trans;
+
+  &:hover{
+    filter: blur(0px) grayscale(0%);
+  }
 }

@@ -57,8 +57,7 @@
     <div class="container">
         <div class="logo">
             <a href="<?php echo get_site_url(); ?>">
-<!--                <h1 class="logo logo-light">{ Pato Marques }</h1>-->
-                <h1 class="logo logo-dark">{ Pato Marques }</h1>
+                <h1 class="logo logo-home logo-dark">Pato Marques</h1>
             </a>
         </div>
         <div class="menu-extras">
