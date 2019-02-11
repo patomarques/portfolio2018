@@ -272,8 +272,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 10;
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #e8e8e8; }
+  background-color: #FFFFFF; }
 
 section.full-height {
   min-height: 100%; }
@@ -4791,7 +4790,7 @@ footer.dark p {
 .text-base {
   font-size: 32px;
   font-family: "Neucha", "monospace";
-  color: #F5F5F5; }
+  color: #e73827; }
 
 .video-home-fullscreen {
   height: 100% !important;
@@ -4844,26 +4843,58 @@ body::-webkit-scrollbar-thumb {
   .photo-me:hover {
     filter: blur(0px) grayscale(0%); }
 
+.bg-gradient-purple {
+  background: #41295a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F0743, #41295a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.bg-red-orange {
+  background: #a40500;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e73827, #a40500);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e73827, #a40500);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+#topnav,
+.button_container {
+  display: none; }
+
+body {
+  overflow: hidden !important; }
+
 .logo-home {
   font-family: "go around the books";
-  font-size: 3.5em !important;
-  position: relative; }
+  font-size: 4em;
+  position: relative;
+  display: inline-block; }
   .logo-home:before, .logo-home:after {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 128px;
+    height: 128px;
     position: absolute;
-    font-size: 1.2em;
-    margin-top: -5px; }
+    background: url("../img/arrow.png") no-repeat;
+    z-index: 11;
+    display: inline-block; }
   .logo-home:before {
-    content: '>> ';
-    margin-left: -145px; }
+    content: '';
+    transform: rotate(-135deg);
+    margin: -30px 0 0 -200px; }
   .logo-home:after {
-    content: ' >>';
-    padding-left: 20px; }
+    content: '';
+    transform: rotate(45deg);
+    margin: -35px 0 0 70px; }
 
 .logo-dark {
   font-size: 20px !important;
   color: #F5F5F5; }
-  .logo-dark:before {
-    margin-right: 100px !important; }
+  .logo-dark:after, .logo-dark:before {
+    display: none; }
 
 .logo {
   padding: 8px 0 0 0 !important;
@@ -4985,11 +5016,11 @@ body::-webkit-scrollbar-thumb {
         .overlay ul li a:after {
           content: '';
           position: absolute;
-          bottom: 50%;
+          bottom: 53%;
           left: 50%;
           width: 0%;
           transform: translateX(-50%);
-          height: 1px;
+          height: 2px;
           background: #a40500;
           transition: .35s;
           opacity: 0.7; }

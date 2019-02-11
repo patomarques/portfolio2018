@@ -5,7 +5,7 @@
 .text-base{
   font-size: 32px;
   font-family: $ff-text-base;
-  color: $cinza;
+  color: $vermelho-aberto;
 }
 
 .video-home-fullscreen{
@@ -80,4 +80,18 @@ body::-webkit-scrollbar-thumb {
   &:hover{
     filter: blur(0px) grayscale(0%);
   }
+}
+
+.bg-gradient-purple{
+  background: #41295a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-red-orange{
+  background: $vermelho;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, $vermelho-aberto, $vermelho);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, $vermelho-aberto, $vermelho); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
